@@ -1,1 +1,8 @@
-
+<?php 
+$cont=0;
+while($cont<101){
+    if($cont % 5 == 0){
+        echo "Es múltiplo de 5 : $cont <br>";
+    }
+}
+?>
