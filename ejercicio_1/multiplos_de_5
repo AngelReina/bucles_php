@@ -1,1 +1,7 @@
-
+<?php  
+for($i=0;$i<=100;$i++){
+    if($i % 5 == 0){
+        echo "Es múltiplo de 5 : $i <br>";
+    }
+}
+?>
